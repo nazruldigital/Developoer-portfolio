@@ -44,11 +44,12 @@ background-image:linear-gradient(red, orange);
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
-.kevin-feige{
+.kevin-feige {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
-    background-position: left;
-
+    background-position: right center;
+    background-size: 8%;
+    background-attachment: fixed;
 }
 .movies{
     width: 30%;
@@ -80,4 +81,11 @@ background-image:linear-gradient(red, orange);
 .border{
     border-left: 5px solid red;
 
+}
+.last-banner{
+    background-image: url(images/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 25%;
+    background-attachment: fixed;
 }
