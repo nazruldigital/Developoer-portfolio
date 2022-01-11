@@ -6,11 +6,15 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    text-align: center;
+    font-size: 50px;
+}
 .red-color{
     color: red;
 }
 
-section{
+.flexebel-continer{
     display: flex;
     margin-bottom: 100px;
 
@@ -41,4 +45,27 @@ background-image:linear-gradient(red, orange);
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position:right;
+
+}
+.movies{
+    width: 30%;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 10px;
+}
+.movies img{
+    width: 100%;
+    
+}
+#doctor{
+    background-color: #EDF5F6;
+
+}
+#thor{
+    background-color: #FDECE8;
+
+}
+#black{
+    background-color: #FFF4D6;
+    
 }
