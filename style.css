@@ -12,15 +12,18 @@ h1{
 
 section{
     display: flex;
+    margin-bottom: 100px;
+
 }
 .half-width{
     width: 50%;
     padding: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 .half-width img{
-    width: 80%;
-    padding-left: 10%;
-    padding-right: 10%;
+    width: 100%;
+
 }
 .link-button{
     text-decoration: none;
@@ -33,4 +36,9 @@ background-image:linear-gradient(red, orange);
 .top-baner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.kevin-feige{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position:right;
 }
